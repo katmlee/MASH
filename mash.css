@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+h1{
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  color: #FF33C5;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5em;
+}
+h4{
+  width: 700px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#wrapper{
+  margin: 0 auto;
+  /*text-align: center;*/
+  width: 750px;
+  border: 3px solid #FF33C5;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.column{
+  display: inline-block;
+  width: 43%;
+  vertical-align: top;
+}
+.inputArea{
+  padding: 25px;
+  margin: 10px;
+  font-weight: bolder;
+}
+
+.rightside{
+  margin: 10px;
+
+}
+ul{
+  list-style-type: none;
+  padding-left: 25px;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+input{
+  width: 250px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+
+}
+#circleArea{
+  color:#FF33C5;
+  display: block;
+  vertical-align: top;
+}
+
+#fortune{
+  color:black;
+  display: block;
+  padding: 15px;
+  text-align: center;
+}
+button{
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding:10px 25px 10px 25px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.25em;
+  margin: 15px;
+
+}
+#runGame{
+  margin-left: 27px;
+  font-size: 1em;
+}
+
+
+
+.circle.hidden {
+  border: none;
+}
+
+.circle{
+  margin: 9px auto;
+  border: 1px solid black;
+  border-radius: 100%
+}
+.circle1   {
+  border: 1px solid red;
+	width: 20px;
+	height: 20px;
+}
+.circle2 {
+  border: 1px solid orange;
+  width: 40px;
+  height: 40px;
+}
+.circle3 {
+  border: 1px solid gold;
+  width: 60px;
+  height: 60px;
+}
+.circle4 {
+  border: 1px solid green;
+  width: 80px;
+  height: 80px;
+}
+.circle5 {
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+}
+.circle6 {
+  border: 1px solid violet;
+  width: 120px;
+  height: 120px;
+}
+.circle7 {
+  border: 1px solid red;
+  width: 140px;
+  height: 140px;
+}
+.circle8 {
+  border: 1px solid orange;
+  width: 160px;
+  height: 160px;
+}

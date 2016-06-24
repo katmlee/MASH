@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MASH</title>
+  <link rel="stylesheet" href="mash.css">
+
+</head>
+<body>
+  <div id="wrapper">
+  <h1>MASH</h1>
+  <h4>Imagine you are in your grade-school cafeteria... remember dreaming about your future? Let MASH conjeuor up your future! Start by inputting 3 options in each category! <h4>
+    <div class="column inputArea">
+      <ul id="spouse"> Spouse
+        <li> <input type ="text" id="spouse1"/li>
+        <li> <input type ="text" id="spouse2"/li>
+        <li> <input type ="text" id="spouse3"/li>
+      </ul>
+      <ul id="city"> City
+        <li> <input type ="text" id="city1"/li>
+        <li> <input type ="text" id="city2"/li>
+        <li> <input type ="text" id="city3"/li>
+      </ul>
+      <ul id="career"> Career
+        <li> <input type ="text" id="career1"/li>
+        <li> <input type ="text" id="career2"/li>
+        <li> <input type ="text" id="career3"/li>
+      </ul>
+      <ul id="kids"> Kids
+        <li> <input type ="text" id="kids1"/li>
+        <li> <input type ="text" id="kids2"/li>
+        <li> <input type ="text" id="kids3"/li>
+      </ul>
+      <ul id="car"> Car
+        <li> <input type ="text" id="car1"/li>
+        <li> <input type ="text" id="car2"/li>
+        <li> <input type ="text" id="car3"/li>
+      </ul>
+      <button id="inputButton">submit</button>
+    </div>
+    <div class="column rightside">
+      <div id="circleArea">
+        <p id="nextStep"></p>
+          <div class="circle circle8 hidden">
+            <div class="circle circle7 hidden">
+              <div class="circle circle6 hidden">
+                <div class="circle circle5 hidden">
+                  <div class="circle circle4 hidden">
+                    <div class="circle circle3 hidden">
+                      <div class="circle circle2 hidden">
+                        <div class="circle circle1"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      <button id="runGame">Click here for your future!</button>
+    </div>
+    <div id="fortune"><p></p></div>
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="http://underscorejs.org/underscore.js"></script>
+    <script src="typed.js"></script>
+    <script src="mash.js"></script>
+</body>
+
+</html>
